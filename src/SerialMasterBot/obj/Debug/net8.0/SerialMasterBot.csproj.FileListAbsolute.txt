@@ -1,0 +1,17 @@
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\bin\Debug\net8.0\SerialMasterBot.exe
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\bin\Debug\net8.0\SerialMasterBot.deps.json
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\bin\Debug\net8.0\SerialMasterBot.runtimeconfig.json
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\bin\Debug\net8.0\SerialMasterBot.dll
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\bin\Debug\net8.0\SerialMasterBot.pdb
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\bin\Debug\net8.0\Telegram.Bot.dll
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\obj\Debug\net8.0\SerialMasterBot.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\obj\Debug\net8.0\SerialMasterBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\obj\Debug\net8.0\SerialMasterBot.AssemblyInfoInputs.cache
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\obj\Debug\net8.0\SerialMasterBot.AssemblyInfo.cs
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\obj\Debug\net8.0\SerialMasterBot.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\obj\Debug\net8.0\SerialMa.5CA96228.Up2Date
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\obj\Debug\net8.0\SerialMasterBot.dll
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\obj\Debug\net8.0\refint\SerialMasterBot.dll
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\obj\Debug\net8.0\SerialMasterBot.pdb
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\obj\Debug\net8.0\SerialMasterBot.genruntimeconfig.cache
+C:\Users\victo\OneDrive\Рабочий стол\Modules\SerialMasterBot\SerialMasterBot\obj\Debug\net8.0\ref\SerialMasterBot.dll
