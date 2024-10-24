@@ -4,12 +4,15 @@ using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 
+Random r = new Random();
+
 using var cts = new CancellationTokenSource();
 var bot = new TelegramBotClient("7945123194:AAEYbVWJOgkT9HuofFZRvVdb75XfD12p2nU", cancellationToken: cts.Token);
 var me = await bot.GetMeAsync();
 bot.OnError += OnError;
 bot.OnMessage += OnMessage;
 bot.OnUpdate += OnUpdate;
+
 
 Console.WriteLine($"@{me.Username} is running... Press Enter to terminate");
 Console.ReadLine();
@@ -30,9 +33,13 @@ async Task OnMessage(Message msg, UpdateType type)
             $"Привет, {msg.From.FirstName}! Я здесь, чтобы дать вам совет, как оправдаться перед друзьями за то, что не успели досмотреть сериал.");
         await bot.SendTextMessageAsync(msg.Chat, "Кого будем винить?",
             replyMarkup: new InlineKeyboardMarkup()
-            .AddButton("Сериал", "serial")
-            .AddButton("Ближайшее окружение", "env")
-            .AddButton("Вселенную в целом", "universe"));
+            .AddButton("Сериал", "1")
+            .AddNewRow()
+            .AddButton("Ближайшее окружение", "2")
+            .AddNewRow()
+            .AddButton("Вселенную в целом", "3")
+            .AddNewRow()
+            .AddButton("Случайный совет, одна штука", Convert.ToString(r.Next(1,4))));
     }
 }
 
@@ -44,7 +51,7 @@ async Task OnUpdate(Update update)
         var chat = query.Message.Chat;
         switch (query.Data)
         {
-            case "serial":
+            case "1":
                 {
                     await bot.AnswerCallbackQueryAsync(query.Id);
                     await bot.SendTextMessageAsync(
@@ -57,7 +64,7 @@ async Task OnUpdate(Update update)
                     await bot.SendVideoAsync(chat.Id, "https://telegrambots.github.io/book/docs/video-hawk.mp4");
                     return;
                 }
-            case "env":
+            case "2":
                 {
                     await bot.AnswerCallbackQueryAsync(query.Id);
                     await bot.SendTextMessageAsync(
@@ -69,7 +76,7 @@ async Task OnUpdate(Update update)
                     await bot.SendStickerAsync(chat.Id, "https://telegrambots.github.io/book/docs/sticker-dali.webp");
                     return;
                 }
-            case "universe":
+            case "3":
                 {
                     await bot.AnswerCallbackQueryAsync(query.Id);
                     await bot.SendTextMessageAsync(
